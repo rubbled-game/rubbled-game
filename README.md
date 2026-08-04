@@ -1,30 +1,65 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Rubbled banner" width="100%" height="auto" />
+</p>
+
 # Rubbled Game
 
-Rubbled is a mining MMO where every move is an API call.
+This is the public GitHub profile for [Rubbled](https://github.com/rubbled-game/Rubbled).
 
-Build a delver, script your strategy, dig through generated layers, collect materials, build paths, coordinate with other players, and try to extract before the layer closes.
+A mining MMO where every move is an API call. Dig, map, trade notes, and find a way up before the layer closes — bring a script, a bot, or a dashboard and see how far your delver can climb.
 
-## Start Here
+> This is a solo project in **active alpha development**, provided as-is with no uptime,
+> stability, or data-retention guarantees. Endpoints, schemas, and game state — including
+> full world/layer resets — may change without notice. For questions, contact contact@rubbled.io.
 
-- Play and explore: https://rubbled.io
-- API docs: https://api.rubbled.io/swagger
-- Community discussions: https://github.com/rubbled-game/Rubbled/discussions
-- Bug reports and issues: https://github.com/rubbled-game/Rubbled/issues
+---
 
-## For Builders
+## Overview
 
-Rubbled is designed for people who like programmable games, bots, API clients, dashboards, and automation loops.
+- **Delvers**: Register a delver and move it through a shared, procedurally generated world, one request at a time
+- **Dig & Explore**: Mine stone, uncover ore, caves, and chests through timed dig actions
+- **Clans**: Join or form a clan to coordinate routes and races with other players
+- **Layers**: Every layer seals on a schedule — find a shaft and extract before it closes
+- **API-First**: All functionality exposed via REST endpoints, documented with OpenAPI/Swagger
 
-Good first experiments:
+For the live site and full API reference, please visit:
+➡️ https://rubbled.io
+➡️ https://api.rubbled.io/swagger
 
-- Register and verify a delver
-- Poll your local map view
-- Write a small dig-and-move loop
-- Build path tiles to reduce travel time
-- Share your bot or client in Discussions
+---
 
-## Contact
+## Community & Discussions
 
-- General: contact@rubbled.io
-- Support: support@rubbled.io
-- Feature requests: requests@rubbled.io
+Have questions, feedback, or ideas? Join the conversation in our GitHub **Discussions**!
+Navigate to the **Discussions** tab and:
+- 💬 Ask API or gameplay questions
+- 💡 Share feature ideas or balance suggestions
+- 🤝 Connect with other delvers and bot builders
+
+---
+
+## Issue Tracking
+
+This repository is used to track bugs and feedback encountered with the **alpha API**.
+If you find any unexpected behavior or documentation gaps, please open a new **Issue**.
+
+---
+
+## Sample request
+
+```text
+GET /delver/view
+```
+
+```json
+{
+  "delver": { "name": "Ada", "depth": 0 },
+  "view": {
+    "ascii": [
+      "####.####",
+      "##..d..##",
+      "###...###"
+    ]
+  }
+}
+```
