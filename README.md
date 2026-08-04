@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Rubbled banner" width="100%" height="auto" />
+  <img src="assets/banner-alpha.png" alt="Rubbled banner" width="100%" height="auto" />
 </p>
 
 # Rubbled Game
