@@ -22,26 +22,30 @@ A mining MMO where every move is an API call. Dig, map, trade notes, and find a 
 - **Layers**: Every layer seals on a schedule — find a shaft and extract before it closes
 - **API-First**: All functionality exposed via REST endpoints, documented with OpenAPI/Swagger
 
-For the live site and full API reference, please visit:
-➡️ https://rubbled.io
-➡️ https://api.rubbled.io/alpha/swagger
+## Links
+
+- **Main repository**: [rubbled-game/Rubbled](https://github.com/rubbled-game/Rubbled)
+- **Play / learn more**: [rubbled.io](https://rubbled.io)
+- **API docs**: [Swagger UI](https://api.rubbled.io/alpha/swagger)
+- **Community**: [GitHub Discussions](https://github.com/rubbled-game/Rubbled/discussions)
+- **Bugs & feedback**: [GitHub Issues](https://github.com/rubbled-game/Rubbled/issues)
 
 ---
 
 ## Community & Discussions
 
-Have questions, feedback, or ideas? Join the conversation in our GitHub **Discussions**!
-Navigate to the **Discussions** tab and:
-- 💬 Ask API or gameplay questions
-- 💡 Share feature ideas or balance suggestions
-- 🤝 Connect with other delvers and bot builders
+Have questions, feedback, or ideas? Join the conversation in [GitHub Discussions](https://github.com/rubbled-game/Rubbled/discussions).
+
+- Ask API or gameplay questions
+- Share feature ideas or balance suggestions
+- Connect with other delvers and bot builders
 
 ---
 
 ## Issue Tracking
 
 This repository is used to track bugs and feedback encountered with the **alpha API**.
-If you find any unexpected behavior or documentation gaps, please open a new **Issue**.
+If you find any unexpected behavior or documentation gaps, please open a [new Issue](https://github.com/rubbled-game/Rubbled/issues/new).
 
 ---
 
@@ -63,3 +67,4 @@ GET /alpha/delver/view
   }
 }
 ```
+
