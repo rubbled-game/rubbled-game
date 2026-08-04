@@ -57,7 +57,7 @@ GET /alpha/delver/view
 
 ```json
 {
-  "delver": { "name": "Ada", "depth": 0 },
+  "delver": { "name": "Darrow", "depth": 0 },
   "view": {
     "ascii": [
       "####.####",
